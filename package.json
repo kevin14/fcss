@@ -1,0 +1,31 @@
+{
+  "name": "fcss",
+  "version": "0.1.0",
+  "description": "free running css complier",
+  "main": "index.js",
+  "bin": "./bin/fcss",
+  "scripts": {
+    "test": "fcss"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kevin14/fcss.git"
+  },
+  "keywords": [
+    "css",
+    "less",
+    "sass",
+    "complier",
+    "free-running"
+  ],
+  "author": "kevin14",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/kevin14/fcss/issues"
+  },
+  "homepage": "https://github.com/kevin14/fcss",
+  "dependencies": {
+    "less": "^2.4.0",
+    "minimist": "^1.1.0"
+  }
+}
