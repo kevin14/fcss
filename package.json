@@ -1,6 +1,6 @@
 {
   "name": "fcss",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "free running css complier",
   "main": "index.js",
   "bin": "./bin/fcss",
@@ -25,6 +25,7 @@
   },
   "homepage": "https://github.com/kevin14/fcss",
   "dependencies": {
+    "colors": "^1.0.3",
     "less": "^2.4.0",
     "minimist": "^1.1.0"
   }
